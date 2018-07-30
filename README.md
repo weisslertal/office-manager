@@ -4,10 +4,10 @@ This program reads data of office reservations from a .csv file and with the inp
 
 Running instructions:
 
-1. Clone the project to your workspace (import it as a maven project)
+1. Clone the project to your workspace (import it as a Maven project)
 2. Run the project as a Java Application (the main class is home.assignment.office_manager.App)
 3. Input a date (month and year) and receive the monthly statistics!
-
+***The project needs to use Java 1.7 and above, please see that your IDE supports that (if you're having trouble with it please contact me).
 
 Results:
 
