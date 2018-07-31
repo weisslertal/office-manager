@@ -4,10 +4,10 @@ This program reads data of office reservations from a .csv file and with the inp
 
 Running instructions:
 
-1. Clone the project to your workspace (import it as a Maven project)
-2. Run the project as a Java Application (the main class is home.assignment.office_manager.App)
-3. Input a date (month and year) and receive the monthly statistics!
-***The project needs to use Java 1.7 and above, please see that your IDE supports that (if you're having trouble with it please contact me).
+1. Download the jar file into a directory of your choice 
+2. In the terminal, from that directory run `java -jar office-manager-1.0.0-fat.jar`
+3. Follow the instructions and receive the monthly statistics!
+
 
 Results:
 
@@ -20,8 +20,8 @@ Results:
 
 Answers to given questions: 
 
-1. It took about 2.5 hours to design and write the code and then another hour for testing, writing the README, creating a repository, ext.
-2. How to handle the .csv file (is it a DB? should I retrieve data using "queries"? does it change?).
+1. It took about 2.5 hours to design and write the code and then another hour for testing, writing the README, creating a repository, etc.
+2. How to handle the .csv file (is it a DB? should I retrieve data using "queries"? does it change? should I preprocess and/or cache?).
 3. I would test it more throughly (it takes forever to manually check every input).
 
 

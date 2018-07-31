@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: home.assignment.office_manager.OfficeManagerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.098 sec
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in home.assignment.office_manager.OfficeManagerTest
+home.assignment.office_manager.OfficeManagerTest.testDevice()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.InputStreamReader.<init>(InputStreamReader.java:72)
+	at home.assignment.office_manager.OfficeManager.readFile(OfficeManager.java:25)
+	at home.assignment.office_manager.OfficeManager.calculateMonthlyStatistics(OfficeManager.java:10)
+	at home.assignment.office_manager.OfficeManagerTest.testDevice(OfficeManagerTest.java:15)
+

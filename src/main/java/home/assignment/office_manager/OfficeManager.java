@@ -6,8 +6,8 @@ import java.util.List;
 
 public class OfficeManager {
 	
-	public static MonthlyStatistics calculateMonthlyStatistics(String date) {
-		List<Office> officesList = readFile("resources/data.csv");
+	public MonthlyStatistics calculateMonthlyStatistics(String date) {
+		List<Office> officesList = readFile("data.csv");
 		Integer freeCapacity = 0;
 		Double revenue = 0D;
 		for (Office office : officesList) {
@@ -19,10 +19,10 @@ public class OfficeManager {
 		return new MonthlyStatistics(revenue, freeCapacity);
 	}
 
-	private static List<Office> readFile(String fileName){
+	private List<Office> readFile(String fileName){
 		List<Office> officesData = new ArrayList<Office>();
 	    String line = null;
-	    try (BufferedReader stream = new BufferedReader(new FileReader(fileName))){
+	    try (BufferedReader stream = new BufferedReader(new InputStreamReader(getClass().getClassLoader().getResourceAsStream(fileName)))){
 	        stream.readLine();
 	        while ((line = stream.readLine()) != null) {
 	            String[] splitted = line.split(",");

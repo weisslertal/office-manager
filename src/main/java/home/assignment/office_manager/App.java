@@ -13,7 +13,7 @@ public class App {
 			while (true) {
 				System.out.println("Please enter a month to analyze (in YYYY-MM format):");
 				String date = reader.readLine();
-				MonthlyStatistics monthlyStatistics = OfficeManager.calculateMonthlyStatistics(date);
+				MonthlyStatistics monthlyStatistics = new OfficeManager().calculateMonthlyStatistics(date);
 				System.out.println(date + ": expected revenue: $"
 						+ new DecimalFormat("#,###.00").format(monthlyStatistics.getRevenue())
 						+ ", expected total capacity of the unreserved offices: " + monthlyStatistics.getFreeCapacity()
