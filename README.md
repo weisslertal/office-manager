@@ -11,11 +11,11 @@ Running instructions:
 
 Results:
 
-2013-01: expected revenue: $8,100.00, expected total capacity of the unreserved offices: 254
-2013-06: expected revenue: $15,150.00, expected total capacity of the unreserved offices: 241
-2014-03: expected revenue: $37,214.52, expected total capacity of the unreserved offices: 203
-2014-09: expected revenue: $86,700.00, expected total capacity of the unreserved offices: 120
-2015-07: expected revenue: $76,225.81, expected total capacity of the unreserved offices: 135
+1. 2013-01: expected revenue: $8,100.00, expected total capacity of the unreserved offices: 254
+2. 2013-06: expected revenue: $15,150.00, expected total capacity of the unreserved offices: 241
+3. 2014-03: expected revenue: $37,214.52, expected total capacity of the unreserved offices: 203
+4. 2014-09: expected revenue: $86,700.00, expected total capacity of the unreserved offices: 120
+5. 2015-07: expected revenue: $76,225.81, expected total capacity of the unreserved offices: 135
 
 
 Answers to given questions: 
